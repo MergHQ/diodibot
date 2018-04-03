@@ -27,7 +27,6 @@ async function run() {
           client.joinVoiceChannel(member.voiceState.channelID).then((connection: VoiceConnection) => {
             // Playback the stream
             connection.play(radioStream.data);
-            client.createMessage(msg.channel.id, '***16.4.2018***');
           }).catch(e => {
             console.log(e);
           });
