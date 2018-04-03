@@ -1,0 +1,20 @@
+{
+  "name": "Diodibot",
+  "description": "Plays radiodiodi in discord",
+  "authors": "author",
+  "version": "1.0.0",
+  "main": "pathToMain",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "eris": "abalabahaha/eris#dev"
+  },
+  "devDependencies": {
+    "@types/axios": "0.14.0",
+    "@types/node": "9.6.2",
+    "dotenv": "^5.0.1"
+  },
+  "scripts": {
+    "compile": "tsc",
+    "start": "node ./.dist/App.js"
+  }
+}

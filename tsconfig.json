@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "preserveConstEnums": true,
+        "strictNullChecks": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "sourceMap": true,
+        "target": "es5",
+        "outDir": ".build",
+        "moduleResolution": "node",
+        "lib": [
+            "es2015",
+            "esnext"
+        ],
+        "rootDir": "./"
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "include": [
+        "./src"
+    ]
+}
