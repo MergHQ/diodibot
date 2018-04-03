@@ -1,7 +1,6 @@
 require('dotenv').config();
 import { Client, Message, VoiceConnection } from 'eris';
 import * as axios from 'axios';
-import { ReadStream } from 'fs';
 
 const client = new Client(String(process.env.DIODIBOT_TOKEN));
 const STREAM_URL = 'https://virta.radiodiodi.fi/stream.mp3';
