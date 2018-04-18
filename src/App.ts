@@ -3,7 +3,7 @@ import { Client, Message, VoiceConnection } from 'eris';
 import * as axios from 'axios';
 
 const client = new Client(String(process.env.DIODIBOT_TOKEN));
-const STREAM_URL = 'https://virta.radiodiodi.fi/stream.mp3';
+const STREAM_URL = 'https://virta.radiodiodi.fi/radiodiodi-mp3';
 
 async function run() {
   // Get the radio stream
